@@ -11,7 +11,7 @@ final TextEditingController _titleController = new TextEditingController();
 final TextEditingController _bodyController = new TextEditingController();
 String _title;
 String _body;
-String serverURL = "http://192.168.43.219:7777";
+String serverURL = "http://localhost:7777";
 
 void main() {
   runApp(App());
